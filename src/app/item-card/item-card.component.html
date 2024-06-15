@@ -1,0 +1,14 @@
+<div class="card">
+    <div class="card-header">
+        <p>{{item.name}}</p>
+    </div>
+    <div class="card-body">
+        {{item.description}}
+        <br>
+        {{item.price}}
+    </div>
+    <div class="card-footer">
+        <button class="edit" (click)="onEdit()">Edit</button>
+        <button class="delete">Delete</button>
+    </div>
+</div>

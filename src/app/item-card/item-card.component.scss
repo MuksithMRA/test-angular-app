@@ -1,0 +1,31 @@
+.card{
+    width: 18rem;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+
+    .card-header{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .card-body{
+       padding:10px 0px;
+    }
+    .card-footer{
+       padding:10px 0px;
+
+       button{
+              padding: 5px 10px;
+              border: none;
+              background-color: #007bff;
+              color: white;
+              border-radius: 3px;
+              cursor: pointer;
+              margin-right: 5px;
+       }
+    }
+}

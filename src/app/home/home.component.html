@@ -1,0 +1,28 @@
+<p>{{authentication.loginMessage}}</p>
+
+<h1>My Card List ------- {{currentPrice}}</h1>
+
+<app-item-card (editClicked)="currentPrice = $event" [item]='item' *ngFor="let item of items"></app-item-card>
+
+<!-- <p *ngFor="let item of items"> {{item}}</p> -->
+
+
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi assumenda voluptatum, id sunt labore itaque, non
+    veritatis consequatur totam voluptatem eaque optio. Nam minus, molestias explicabo accusantium laboriosam tenetur
+    perferendis?</p>
+
+<!---Interpolision-->
+<h1 class="my-index">Index {{index}}</h1>
+
+<!---Property binding-->
+<img [src]="src" [width]="width" [height]="height">
+
+<!---Event binding-->
+<button (click)="incrementNumber()">Click me</button>
+
+<div class="main">
+    <p>Hello main</p>
+    <div class="second-main">
+        <h1>Hello Second main</h1>
+    </div>
+</div>
